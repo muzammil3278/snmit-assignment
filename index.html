@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+
+
+<body class="bg-primary">
+    <div class="container d-flex justify-content-center">
+        <div
+            class="box border border-dark bg-dark text-center text-white d-flex flex-column align-items-center justify-content-center rounded ">
+            <form >
+            <h2 class="my-5">Admin Login</h2>
+            
+            <div class="input1 my-5">
+                <input type="text" class="border border-dark rounded" name="username" id="user" placeholder="Username"><img src="./img/1.jpg" class="img1"></div>
+            <div class="input1 my-3"><input type="password" class="border border-dark rounded" name="password" id="pass" placeholder="Password"><img src="./img/2.png" class="img2"></div>
+           <div class="d-flex flex-column justfy-content-center align-items-center"> <a href="#" class="forgot">Forgot Password?</a>
+            <input type="submit" value="Login" class="btn btn-primary my-5" onclick="validate()"></div>
+        </form>
+            
+        </div>
+
+    </div> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+     
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-primary">
+    <div class="flex justify-center items-center py-20 bg-blue-200 h-screen">
+        <div class="form bg-gray-800 lg:w-4/12 md:w-8/12 sm:10/12 w-full  px-12 py-16   font-medium shadow-2xl">
+        <h1 class="text-white uppercase text-2xl text-center pb-12">Admin Login</h1>
+        <form  id="form" action="./login.html" method="get">
+          <span class="">
+            <input type="email" name="email" id="email" class="rounded outline-none bg-gray-700 p-2 pl-4 mb-10 w-full  "placeholder="Username">
+            <span class="flex justify-end relative -left-3" style="bottom: 68px;">
+                <i class="fa-solid fa-user"></i>
+            </span>
+          </span>
+           <span>
+          
+            <input type="text" name="text" id="text" class="rounded outline-none bg-gray-700 p-2 pl-4 w-full mb-6" placeholder="Password">
+            <span class="flex justify-end relative -left-3" style="bottom: 52px;">
+                <i class="fa-solid fa-lock"></i>
+            </span>
+          </span>
+          <span class="text-gray-300 flex justify-end text-xs">Forgot Password?</span>
+          <button class="bg-blue-400 px-6 text-white rounded py-1"  onclick="validate()">Login</button>
+        </form>
+      </div>
+      </div>
+
+
+
+
+
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+}
+
+.box {
+  width: 40vh;
+  height: 70vh;
+  margin-top: 15vh;
+  position: relative;
+}
+.box a {
+  font-size: 12px;
+  text-decoration: none;
+}
+.box .img1 {
+  width: 3vh;
+  position: absolute;
+  right: 14%;
+  top: 35%;
+}
+.box .img2 {
+  width: 3vh;
+  position: absolute;
+  right: 14%;
+  top: 53%;
+}/*# sourceMappingURL=main.css.map */
